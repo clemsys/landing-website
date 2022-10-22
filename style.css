@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1010px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header .container {
+    justify-content: space-between;
+    padding: 14px 0px;
+    margin-bottom: 80px;  
+}
+
+.header, .footer, .description{
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.header-left {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-right {
+    font-size: 18px;
+    color:  #E5E7EB;
+}
+
+li {
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.description .container {
+    padding: 0px 10px;
+    gap: 50px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.description h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0;
+    padding: 0;
+}
+
+.description p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+.description-left {
+    flex: 1;
+}
+
+.description-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E5E7EB55;
+    height: 200px;
+    width: 500px;
+}
+
+.information .container {
+    flex-direction: column;
+}
+
+.cards-container {
+    display: flex;
+    gap: 50px;
+}
+
+.illustration {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+.quote .container {
+    flex-direction: column;
+}
