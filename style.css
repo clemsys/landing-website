@@ -13,7 +13,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1010px;
+    max-width: 1020px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ body {
 .header .container {
     justify-content: space-between;
     padding: 14px 0px;
-    margin-bottom: 80px;  
+    margin-bottom: 100px;  
 }
 
 .header, .footer, .description{
@@ -46,8 +46,12 @@ li {
     margin: 0px 10px;
 }
 
+.description {
+    padding-bottom: 130px;
+}
+
 .description .container {
-    padding: 0px 10px;
+    padding: 0px 0px;
     gap: 50px;
 }
 
@@ -64,6 +68,7 @@ ul {
     font-weight: extra-bold;
     margin: 0;
     padding: 0;
+    line-height: 1.2em;
 }
 
 .description p {
@@ -71,10 +76,25 @@ ul {
     color: #E5E7EB;
     margin: 0;
     padding: 0;
+    line-height: 1.2em;
 }
 
 .description-left {
     flex: 1;
+}
+
+button {
+  background-color: #3882F6; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 35px;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .description-right {
@@ -82,8 +102,9 @@ ul {
     align-items: center;
     justify-content: center;
     background: #E5E7EB55;
-    height: 200px;
-    width: 500px;
+    height: 240px;
+    width: 520px;
+    font-size: 18px;
 }
 
 .information .container {
